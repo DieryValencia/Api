@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.api.crud.models.UserModel;
 
 @Repository
-public interface IUserRepository extends JpaRepository<UserModel, Integer> {
+public interface IUserRepository extends JpaRepository<UserModel, Long> {
 
 
 }
