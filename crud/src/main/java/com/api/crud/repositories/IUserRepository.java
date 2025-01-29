@@ -8,8 +8,6 @@ import com.api.crud.models.UserModel;
 @Repository
 public interface IUserRepository extends JpaRepository<UserModel, Long> {
 
-    
 
 }
 
-// minuto 16:30 
