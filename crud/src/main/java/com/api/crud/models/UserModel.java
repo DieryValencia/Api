@@ -15,7 +15,7 @@ import jakarta.persistence.Table;
 public class UserModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column
     private String firsName;
@@ -26,11 +26,11 @@ public class UserModel {
     @Column
     private String email;
 
-    public int getId() {  // Long o int revisar
+    public Long getId() {  // Long o int revisar
         return id;
     }
 
-    public void setId(int id) {  // Long o int revisar 
+    public void setId(Long id) {  // Long o int revisar 
         this.id = id;
     }
 
